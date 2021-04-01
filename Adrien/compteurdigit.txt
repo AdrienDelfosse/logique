@@ -1,0 +1,18 @@
+Début compteur
+	déclarations des variables locales
+
+		var ind : N 
+		var ind2 : N 
+		var ind3 : N
+	fin déclarations variables
+		
+	pour ind allant de 0 à 9
+		pour ind2 allant de 0 à  9
+			pour ind3 allant de 0 à 9
+				afficher ind3, ind2, ind
+			ind3 suivant
+		ind2 suivant
+	ind suivant
+	
+	
+fin compteur
