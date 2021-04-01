@@ -1,0 +1,28 @@
+Début nombre parfait
+	déclarations des variables locales
+		var max : N <- 100
+		var div : N 
+		var sommediv : N <- 1
+		var nbr : N <-2
+	fin déclarations variables
+		
+	pour nbr allant de 2 à max
+		sommediv <- 1
+		
+		pour div allant de 2 à nbr-1
+		si nbr MOD div = 0
+			alors 
+			nbr	sommediv <- sommediv + k
+		finsi
+		div suivant
+		
+		si sommediv = nbr
+			alors
+				afficher nbr
+		finsi
+			
+		
+	nbr suivant
+	
+	
+fin nombre parfait
