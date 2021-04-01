@@ -1,0 +1,18 @@
+Début vecteurx2
+	déclarations des variables locales
+		Const TAILLE :N <- 16
+		var tab : N[TAILLE]
+		var ind : N 
+		var a : N <-1
+	fin déclarations variables
+	
+	
+	pour ind allant de 1 à TAILLE
+		tab[ind] <- a 
+		a <- a * 2
+	ind suivant 
+	
+	
+
+	
+fin vecteurx2
