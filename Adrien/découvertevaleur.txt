@@ -1,0 +1,30 @@
+Début
+	déclarations des variables locales
+		var a : N 
+		var nbRech : N 
+		var cpt : N 
+		var saisie : N <- 0
+	fin déclarations variables
+	
+	AFFICHER "entrez une valeur"
+	saisir a
+
+	nbRech <- aleatoire(100)
+	
+	tant que a <> nbRech
+		si a > nbRech
+			alors 
+				AFFICHER "Le nombre recherché est plus petit"
+		finsi
+		si a < nbRech
+			alors
+				AFFICHER "Le nombre recherché est plus grand"
+		finsi
+		AFFICHER "Réessayez"
+		saisir a
+	fin tant que
+	
+	Afficher "bravo"
+	
+	
+fin 
