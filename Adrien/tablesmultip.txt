@@ -1,0 +1,15 @@
+Début tables
+	déclarations des variables locales
+
+		var ind : N 
+		var ind2 : N 
+	fin déclarations variables
+		
+	pour ind allant de 1 à 10
+		pour ind2 allant de 1 à  10
+			afficher ind, " x ", ind2, " = ", ind * ind2
+		ind2 suivant
+	ind suivant
+	
+	
+fin tables
