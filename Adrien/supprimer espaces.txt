@@ -1,0 +1,25 @@
+Début supprimer espaces
+	déclarations des variables locales
+		Const TAILLE :N <- 20
+		var tab : C[TAILLE]
+		var ind : N 
+		var nbEspaces : N <- 0
+	fin déclarations variables
+	
+	AFFICHER "entrez les caractere"
+	
+	pour ind allant de 1 à TAILLE
+		saisir tab[ind]
+	ind suivant 	
+
+	pour ind allant de 1 à TAILLE
+		si tab[ind] = ' '
+			alors nbEspaces <- nbEspaces +1
+		sinon 
+			si nbEspaces > 0
+			tab[ind-nbEspaces] <- tab[ind]
+			tab[ind] <- ' '
+		finsi	
+	ind suivant
+	
+fin supprimer espaces
