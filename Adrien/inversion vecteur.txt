@@ -1,0 +1,22 @@
+Début inversion vecteur
+	déclarations des variables locales
+		Const TAILLE :N <- 10
+		var tab : N[TAILLE]
+		var tab2 : N[TAILLE]
+		var ind : N <-TAILLE
+		var ind2 : N <-1
+	fin déclarations variables
+	
+	AFFICHER "entrez les ", TAILLE "valeurs"
+	
+	pour ind allant de 1 à TAILLE
+		saisir tab[ind]
+	ind suivant 
+	
+	pour ind2 allant de 1 à TAILLE	
+		tab[ind2] <- tab[ind]
+		ind <- ind -1
+	ind2 suivant
+	
+	
+fin inversion vecteur
