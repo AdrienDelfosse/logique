@@ -1,0 +1,24 @@
+Début
+	déclarations des variables locales
+		var a : N 
+		var b : N 
+		var cpt : N 
+		var somme : N <- 0
+	fin déclarations variables
+	
+	AFFICHER "entrez valeur a"
+	saisir a
+	AFFICHER "entrez valeur b"
+	saisir b
+	
+	
+	si a = b 
+		alors somme <- a
+	finsi
+	
+	pour cpt allant de a à b
+		somme <- somme + cpt
+	ind suivant
+	
+	afficher somme
+fin 
