@@ -1,0 +1,25 @@
+Début nombres premiers
+	déclarations des variables locales
+		var max : N <- 100
+		var div : N 
+		var nbr : N <-2
+		var cpt : N <- 0
+	fin déclarations variables
+		
+	tant que cpt < max
+		div <-2
+		nbr <- nbr +1
+		tant que div < nbr 
+			si nbr MOD div = 0 
+				alors div <- nbr +1
+			sinon
+				div <- div +1
+		fin tant que
+		si div <=  nbr 
+			alors 
+				afficher nbr 
+				cpt <- cpt +1	
+	fin tant que
+	
+	
+fin nombres premiers
