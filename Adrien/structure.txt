@@ -1,3 +1,5 @@
+debut struct
+	
 	Structure personne 
 		var nom : T
 		var prenom : T
@@ -9,12 +11,12 @@
 		var jour : N
 		var mois : N
 		var an : N
-	finstructure	
-
-debut struct	
-
-	var tab : etudiant[10] 
-	var i : N
+	finstructure		
+	
+	debut variables locales
+		var tab : etudiant[10] 
+		var i : N
+	fin variables locales
 	
 	pour i allant de 1 à 10
 		tab[i] <- creer personne
