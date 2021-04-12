@@ -1,0 +1,39 @@
+	Structure personne 
+		var nom : T
+		var prenom : T
+		var naissance : Date
+		var tab : etudiant
+	finstructure
+	
+	Structure date
+		var jour : N
+		var mois : N
+		var an : N
+	finstructure	
+
+debut struct	
+
+	var tab : etudiant[10] 
+	var i : N
+	
+	pour i allant de 1 à 10
+		tab[i] <- creer personne
+		tab[i].naissance <- creer date
+		afficher " Prénom :"
+		saisir tab[i].prenom
+		afficher " Nom :"
+		saisir tab[i].nom
+		afficher " jour :"
+		saisir tab[i].naissance.jour
+		afficher " mois:" 
+		saisir tab[i].naissance.mois
+		afficher " an:"
+		saisir tab[i].naissance.an
+		
+		
+	i suivant
+	
+	
+	
+fin struct
+
